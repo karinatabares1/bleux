@@ -303,9 +303,14 @@ footer{
   }
 }
 @media screen and (max-width: 480px) {
+  header{
+    flex-direction: column;
+
+  }
   .logo{
-    padding-left: 2%;
-    width: 30%;
+    padding-left: 4%;
+    width: 25%;
+    flex-direction: column;
   }
   ul{
     font-size: 9px;
@@ -328,15 +333,15 @@ footer{
     margin: 1px;
   }
   .contenedorA img{
-    height: 55%;
+    height: 45%;
     padding-top: 100px;
-    padding-left: 50px;
+    padding-left: 32px;
   }
  h2{
   padding-left: 0;
   margin-top: 0;
   padding: 20px;
-  font-size: 48px;
+  font-size: 45px;
  }
  .compu{
   flex-direction: column;
@@ -354,7 +359,7 @@ footer{
 .caja{
  flex-direction: column; 
  margin: 0;
- padding-left: 70px;
+ padding-left: 65px;
 }
 .caja-1, .caja-2, .caja-3{
   width: 80%;
