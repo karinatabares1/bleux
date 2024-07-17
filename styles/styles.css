@@ -307,6 +307,11 @@ footer{
     flex-direction: column;
     padding: 10px 0px;
   }
+  .botonDescargar{
+    padding: 10px 0;
+    width: 25%;
+    height: 30px;
+  }
   .logo{
     padding-left: 4%;
     width: 25%;
